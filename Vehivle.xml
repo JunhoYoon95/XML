@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report:Vehicles xmlns:report="http://db.kookmin.ac.kr"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://db.kookmin.ac.kr file:/Users/junhoyoon/Desktop/KMU/XML/Report/Vehicle.xsd">
+    
+    <report:Vehicle>
+        <report:Automobile>
+            <report:Body></report:Body>
+            <report:DriveTrain>
+                <report:Engine></report:Engine>
+                <report:Transmission></report:Transmission>
+            </report:DriveTrain>
+            <report:Trunk></report:Trunk>
+        </report:Automobile>
+        <report:Sedan>
+            <report:Body></report:Body>
+            <report:DriveTrain>
+                <report:Engine></report:Engine>
+                <report:Transmission></report:Transmission>
+            </report:DriveTrain>
+            <report:Trunk></report:Trunk>
+        </report:Sedan>
+        <report:Convertible>
+            <report:Body></report:Body>
+            <report:DriveTrain>
+                <report:Engine></report:Engine>
+                <report:Transmission></report:Transmission>
+            </report:DriveTrain>
+            <report:Trunk></report:Trunk>
+            <report:OperatingRoof></report:OperatingRoof>
+        </report:Convertible>
+        <report:Truck>
+            <report:Body></report:Body>
+            <report:DriveTrain>
+                <report:Engine></report:Engine>
+                <report:Transmission></report:Transmission>
+            </report:DriveTrain>
+            <report:Compartment></report:Compartment>
+        </report:Truck>
+    </report:Vehicle>
+    
+</report:Vehicles>

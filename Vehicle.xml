@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Vehicles xmlns="http://db.kookmin.ac.kr"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://db.kookmin.ac.kr file:/Users/junhoyoon/Desktop/KMU/XML/Report/Vehicle.xsd">
+    <Vehicle xsi:type = "SedanType">
+        
+        <Body> White Genesis like </Body>
+        <DriveTrain>
+            <Engine> X6 </Engine>
+            <Transmission> VCT </Transmission>
+        </DriveTrain>
+        <Trunk> None </Trunk>
+    </Vehicle>
+    
+    <Vehicle xsi:type = "AutomobileType">
+        <Body> Matt Black Maserati like </Body>
+        <DriveTrain>
+            <Engine> X4 </Engine>
+            <Transmission> DCT </Transmission>
+        </DriveTrain>
+        <Trunk> Wide </Trunk>
+    </Vehicle>
+    
+    <Vehicle xsi:type = "TruckType">
+        <Body> Gray Starex like </Body>
+        <DriveTrain>
+            <Engine> X4 </Engine>
+            <Transmission> DCT </Transmission>
+        </DriveTrain>
+        <Compartment> 9 </Compartment>
+    </Vehicle>
+    
+    <Vehicle xsi:type = "ConvertibleType">
+        <Body> Red Ferrari like, U know What I mean </Body>
+        <DriveTrain>
+            <Engine> X6 </Engine>
+            <Transmission> DCT </Transmission>
+        </DriveTrain>
+        <Trunk> Narrow </Trunk>
+        <OperatingRoof> Black Matt Roof </OperatingRoof>
+    </Vehicle>
+    
+    <Vehicle xsi:type = "SedanType">
+        <Body> silver Bentley like </Body>
+        <DriveTrain>
+            <Engine> X6 </Engine>
+            <Transmission> DCT </Transmission>
+        </DriveTrain>
+        <Trunk> Wide </Trunk>
+    </Vehicle>
+</Vehicles>
